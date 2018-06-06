@@ -64,6 +64,15 @@ const appTypes = {
       port: 8080,
       run: 'run start'
     }
+  },
+  stencil: {
+    name: 'Stencil App',
+    install: 'create-stencil',
+    defaults: {
+      type: 'create-stencil',
+      port: 3333,
+      run: 'run dev'
+    }
   }
 }
 
